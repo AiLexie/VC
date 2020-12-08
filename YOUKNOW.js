@@ -157,7 +157,7 @@ function render() {
     context.beginPath();
     context.lineCap = 'round';
     context.lineWidth = STAR_SIZE * star.z * scale;
-    context.strokeStyle = 'rgba(255,255,255,'+(0.5 + 0.5*Math.random())+')';
+    context.strokeStyle = 'rgba(0,204,255,'+(0.5 + 0.5*Math.random())+')';
 
     context.beginPath();
     context.moveTo( star.x, star.y );

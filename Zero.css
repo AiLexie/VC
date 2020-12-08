@@ -1,39 +1,44 @@
-@font-face { font-family: Outrun; src: url('../media/Outrun.otf'); }
+@font-face { font-family: Outrun; src: url('Fast.otf'); }
+
 
 #one {
     font-family: Outrun;
-    font-size: 40px;
+    font-size: 55px;
     text-align: center;
-    color: #FF80FF;
+    color: #FFB6C1;
     text-shadow: 2px 4px #000000;
 }
 #two {
     font-family: Outrun;
-    font-size: 80px; 
+    font-size: 100px;
     text-align: center;
-    color: #FF80FF;
+    color: #FFB6C1;
     text-shadow: 2px 4px #000000;
     top: 1;
 }
 #three {
     font-family: Outrun;
-    font-size: 65px; 
+    font-size: 75px;
     text-align: center;
-    color: #FF80FF;
+    color: #FFB6C1;
     text-shadow: 2px 4px #000000;
 }
 div {
     font-family: Outrun;
-    font-size: 65px; 
+    font-size: 65px;
     text-align: center;
-    color: #FF80FF;
+    color: #FFB6C1;
     text-shadow: 2px 4px #000000;
 }
 body {
-  background-image: url('../media/background.png');
+  background-image: url('background.png');
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;
+  background-size: cover;
+  height:100%;
+  width:100%;
+  overflow: hidden;
 }
 .button { 
             background-size: cover; 
@@ -57,7 +62,7 @@ body {
             font-size: 2rem; 
             padding: 0;
             border: none;
-            background: url(../media/Download.jpg);
+            background: url(Download.jpg);
             background-repeat; no-repeat; 
             background-position: center;
             text-align: center;
@@ -72,7 +77,7 @@ body {
     font-size: 3em;
     font-weight: 100;
     color: white;
-    text-shadow: 0 0 20px #48C8FF;
+    text-shadow: 0 0 20px #ff48dd;
 }
 
 #timer div {
@@ -88,19 +93,19 @@ body {
 }
 .glow {
         font-size: 70px;
-        color: #FF80FF;
+        color: #960b71;
         text-align: center;
         -webkit-animation: glow 1s ease-in-out infinite alternate;
         -moz-animation: glow 1s ease-in-out infinite alternate;
         animation: glow 1s ease-in-out infinite alternate;
       }
       @-webkit-keyframes glow {
-          from {
-              text-shadow: 0 0 10px #bf59ff, 0 0 20px #000000, 0 0 30px #000000, 0 0 40px #000000, 0 0 50px #9554b3, 0 0 60px #9554b3, 0 0 70px #9554b3;
-          }
-          to {
-              text-shadow: 0 0 20px #bf59ff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
-          }
+        from {
+            text-shadow: 0 0 10px #FFB6C1, 0 0 20px #000000, 0 0 30px #000000, 0 0 40px #000000, 0 0 50px #960b71, 0 0 60px #701b65, 0 0 70px #a14084;
+        }
+        to {
+            text-shadow: 0 0 20px #ff59e3, 0 0 30px #960b71, 0 0 40px #960b71, 0 0 50px #960b71, 0 0 60px #960b71, 0 0 70px #960b71, 0 0 80px #960b71;
+        }
       }
       canvas {
         position: fixed;
