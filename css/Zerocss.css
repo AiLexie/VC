@@ -1,0 +1,121 @@
+@font-face { font-family: Outrun; src: url('../media/Outrun.otf'); }
+
+#one {
+    font-family: Outrun;
+    font-size: 40px;
+    text-align: center;
+    color: #FF80FF;
+    text-shadow: 2px 4px #000000;
+}
+#two {
+    font-family: Outrun;
+    font-size: 80px; 
+    text-align: center;
+    color: #FF80FF;
+    text-shadow: 2px 4px #000000;
+    top: 1;
+}
+#three {
+    font-family: Outrun;
+    font-size: 65px; 
+    text-align: center;
+    color: #FF80FF;
+    text-shadow: 2px 4px #000000;
+}
+div {
+    font-family: Outrun;
+    font-size: 65px; 
+    text-align: center;
+    color: #FF80FF;
+    text-shadow: 2px 4px #000000;
+}
+body {
+  background-image: url('../media/background.png');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+}
+.button { 
+            background-size: cover; 
+            width: 100px; 
+            height: 100px; 
+            font-size: 2rem; 
+            padding: 0;
+            border: none;
+            background: url(button.png);
+            background-repeat; no-repeat; 
+            background-position: center;
+            text-align: center;
+            cursor:pointer;
+            display:inline-block;
+            z-index: 1;
+}
+.button2 { 
+            background-size: cover; 
+            width: 100px; 
+            height: 100px; 
+            font-size: 2rem; 
+            padding: 0;
+            border: none;
+            background: url(../media/Download.jpg);
+            background-repeat; no-repeat; 
+            background-position: center;
+            text-align: center;
+            cursor:pointer;
+            display:inline-block;
+            z-index: 1;
+}
+.grid-container > div {
+    text-align: center;
+}
+#timer {
+    font-size: 3em;
+    font-weight: 100;
+    color: white;
+    text-shadow: 0 0 20px #48C8FF;
+}
+
+#timer div {
+    display: inline-block;
+    min-width: 90px;
+}
+
+#timer div span {
+    color: #B1CDF1;
+    display: block;
+    font-size: .35em;
+    font-weight: 400;
+}
+.glow {
+        font-size: 70px;
+        color: #FF80FF;
+        text-align: center;
+        -webkit-animation: glow 1s ease-in-out infinite alternate;
+        -moz-animation: glow 1s ease-in-out infinite alternate;
+        animation: glow 1s ease-in-out infinite alternate;
+      }
+      @-webkit-keyframes glow {
+          from {
+              text-shadow: 0 0 10px #bf59ff, 0 0 20px #000000, 0 0 30px #000000, 0 0 40px #000000, 0 0 50px #9554b3, 0 0 60px #9554b3, 0 0 70px #9554b3;
+          }
+          to {
+              text-shadow: 0 0 20px #bf59ff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+          }
+      }
+      canvas {
+        position: fixed;
+        width: 100%;
+        height: 100%;
+      }
+      
+      a {
+        position: absolute;
+        bottom: 2vmin;
+        right: 2vmin;
+        color: rgba(255,255,255,0.2);
+        text-decoration: none;
+      }
+      
+      a:hover {
+        color: #fff;
+      }
