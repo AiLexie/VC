@@ -1,5 +1,7 @@
 ---@diagnostic disable: undefined-global
-
+syn.queue_on_teleport(function()
+    loadstring(game:HttpGet'https://raw.githubusercontent.com/SnPux/VC/master/Prices/clothing.lua')()
+end) 
 -- Import the Orion UI Library
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
 
@@ -104,10 +106,6 @@ local function claimStores()
     -- Server hop here
     game:GetService("TeleportService"):Teleport(7406897155, game:GetService("Players").LocalPlayer)
 end
-
-syn.queue_on_teleport([[
-    loadstring(game:HttpGet'https://raw.githubusercontent.com/SnPux/VC/master/Prices/clothing.lua')()
-]])
 
 -- GUI Elements
 local toggleEnabled = false
