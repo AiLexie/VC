@@ -27,7 +27,7 @@ function TeleportToTargetPos(targetPos)
 end
 
 local function ServerHop()
-    wait(25)
+    wait(10)
     game:GetService("TeleportService"):Teleport(7406897155, game:GetService("Players").LocalPlayer)
 end
 
@@ -81,7 +81,7 @@ local function claimStores()
                     })
                 end ]]
                     -- Wait 5 seconds before moving on to the next store object
-                wait(3)
+                wait(2)
             end
         else
             -- The store object was not found
@@ -101,7 +101,7 @@ local function claimStores()
         Image = "rbxassetid://4483345998",
         Time = 5
     })
-    wait(25)
+    wait(10)
     
     -- Server hop here
     game:GetService("TeleportService"):Teleport(7406897155, game:GetService("Players").LocalPlayer)
