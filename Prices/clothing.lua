@@ -1,7 +1,4 @@
 ---@diagnostic disable: undefined-global
-syn.queue_on_teleport(function()
-    loadstring(game:HttpGet'https://raw.githubusercontent.com/SnPux/VC/master/Prices/clothing.lua')()
-end) 
 -- Import the Orion UI Library
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
 
