@@ -1,11 +1,7 @@
 function updateTimer() {
     future = Date.parse("Jun 20, 2024 0:0:00");
     now = new Date();
-    diff = future - now;
-
-    if (diff < 0) {
-        diff = 0;
-    }
+    diff = now - future;
 
     days = Math.floor(diff / (1000 * 60 * 60 * 24));
     hours = Math.floor(diff / (1000 * 60 * 60));
