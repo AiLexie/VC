@@ -70,6 +70,21 @@ body {
             display:inline-block;
             z-index: 1;
 }
+.button3 { 
+            background-size: cover; 
+            width: 100px; 
+            height: 100px; 
+            font-size: 2rem; 
+            padding: 0;
+            border: none;
+            background: url(hwid.png);
+            background-repeat; no-repeat; 
+            background-position: center;
+            text-align: center;
+            cursor:pointer;
+            display:inline-block;
+            z-index: 1;
+}
 .grid-container > div {
     text-align: center;
 }
