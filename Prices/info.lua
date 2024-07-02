@@ -6,9 +6,9 @@ Just open a a ticket with what you would like to buy!
 |                            Lifetime: $130                                     |
 |                                                                               |
 |~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|
-|                              Moonlight R6                                     |
-|                              Month: $30                                       |
-|                              Lifetime: $100                                   |
+|                              Moonlight R6 SOON                                |
+|                              Month: $0                                        |
+|                              Lifetime: $0                                     |
 |                                                                               |
 |                                                                               |
 |~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|
