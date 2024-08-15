@@ -1,0 +1,14 @@
+{
+  "Release": {
+    "Coins": 500,
+    "Items": []
+  },
+  "300plays": {
+    "Coins": 300,
+    "Items": []
+  },
+  "Lexie": {
+    "Coins": 0,
+    "Items": ["Lucky Clover"]
+  }
+}
